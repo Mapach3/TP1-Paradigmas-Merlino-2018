@@ -1,0 +1,19 @@
+
+Antes que nada asegurarse que la de las variables de entorno, la variable de sistema PATH tenga C:\Python27\ seteado 
+
+
+Abrir CMD.exe como admin
+
+ir a C:\ --> chdir c:\
+
+
+usar este comando: python C:\Python27\Lib\pydoc.py MODULO
+
+por ejemplo: python C:\Python27\Lib\pydoc.py random
+
+si agregamos -w entre pydoc.py y el nombre del modulo nos crea un .html con los datos en el root (C:\)
+
+python C:\Python27\Lib\pydoc.py -w random
+wrote random.html --> Mensaje de confirmacion
+
+
